@@ -94,7 +94,7 @@ def merge_statistics(tickers):
     main_df.to_csv('merged_statistics.csv')
 
 
-def heatmap():
+def graph():
     background = '#000606'
     color_labels = '#00decc'
 
@@ -141,4 +141,4 @@ def heatmap():
 tickers = get_sp500_tickers()
 download_statistics(tickers, reload=False)
 merge_statistics(tickers)
-heatmap()
+graph()
