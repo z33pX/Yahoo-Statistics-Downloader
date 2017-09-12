@@ -77,7 +77,6 @@ def download_statistics(tickers, reload=False):
             print(promt_time_stamp() + '(' + ticker + ') already exists ..')
 
 
-
 def merge_statistics(tickers):
     print(promt_time_stamp() + 'merge statistics ..')
 
