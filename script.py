@@ -100,8 +100,8 @@ def graph():
     df = pd.DataFrame(pd.read_csv('merged_statistics.csv', index_col=0))
 
     # not numerical, dates and empty lines will be droped
-    df.drop([1, 7, 8, 9, 10, 54, 55, 56, 57], inplace=True)
-    df.fillna(0, inplace=True)
+    # df.drop([1, 7, 8, 9, 10, 54, 55, 56, 57], inplace=True)
+    # df.fillna(0, inplace=True)
 
     values = list(df['Values'])
     i = 0
